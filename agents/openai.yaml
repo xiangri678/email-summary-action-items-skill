@@ -1,4 +1,4 @@
 interface:
-  display_name: "Email Intelligence Digest"
-  short_description: "Summarize mail with thread context and evidence"
-  default_prompt: "Review my authorized mailboxes for the requested period and produce a source-linked digest without changing mailbox state."
+  display_name: "Email Summary & Action Items"
+  short_description: "Summarize email threads and extract action items"
+  default_prompt: "Use $email-summary-action-items to review my authorized mailboxes and produce a source-linked summary without changing mailbox state."

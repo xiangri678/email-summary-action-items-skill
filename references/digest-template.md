@@ -1,5 +1,7 @@
 # Email intelligence digest
 
+[中文模板](digest-template.zh-CN.md) | English
+
 - Coverage:
 - Accounts:
 - Collection issues:

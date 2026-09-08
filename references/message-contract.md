@@ -1,5 +1,7 @@
 # Normalized message contract
 
+[中文](message-contract.zh-CN.md) | English
+
 Store only fields needed for the digest:
 
 ```json

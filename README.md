@@ -1,4 +1,6 @@
-# Email Intelligence Digest Skill
+# Email Summary and Action Items Skill
+
+[中文](README.zh-CN.md) | English
 
 An Agent Skill for producing evidence-backed digests across authorized mailboxes while preserving thread context, source links, decisions, and action items.
 
