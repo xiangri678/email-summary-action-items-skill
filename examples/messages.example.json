@@ -1,0 +1,28 @@
+[
+  {
+    "account": "work",
+    "folder": "inbox",
+    "message_id": "example-001",
+    "thread_id": "thread-project-review",
+    "date": "2026-09-07T09:30:00+08:00",
+    "from": ["Project Lead <lead@example.com>"],
+    "to": ["Me <me@example.com>"],
+    "subject": "Project review and next step",
+    "body": "The review passed. Please send the revised document by Wednesday. This is fictional example content.",
+    "attachments": ["review-comments.example.pdf"],
+    "provider_url": "https://mail.example.com/thread/thread-project-review"
+  },
+  {
+    "account": "work",
+    "folder": "sent",
+    "message_id": "example-002",
+    "thread_id": "thread-project-review",
+    "date": "2026-09-07T10:00:00+08:00",
+    "from": ["Me <me@example.com>"],
+    "to": ["Project Lead <lead@example.com>"],
+    "subject": "Re: Project review and next step",
+    "body": "Thanks. I will send the revision by Wednesday.",
+    "attachments": [],
+    "provider_url": "https://mail.example.com/thread/thread-project-review"
+  }
+]

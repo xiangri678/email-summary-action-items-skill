@@ -10,6 +10,8 @@
 - `SKILL.zh-CN.md`：中文 Skill 说明
 - `references/message-contract.md`：统一邮件字段
 - `references/digest-template.md`：总结模板
+- `scripts/validate_messages.py`：在总结前验证统一邮件 JSON
+- `examples/`：虚构邮件输入、调用提示和预期输出
 - `agents/openai.yaml`：界面元数据
 
 生成总结时不会自动标记已读、归档、加标签、删除、回复、转发或发送邮件。
@@ -17,6 +19,14 @@
 ## 使用
 
 通过兼容 Agent Skills 的客户端安装本仓库，或将仓库复制到 Agent 的 Skills 目录。需要用户已授权的邮件 Connector 或 CLI。
+
+无需连接真实邮箱即可运行示例：
+
+```bash
+python3 scripts/validate_messages.py examples/messages.example.json
+```
+
+完整调用提示和预期结果见 [`examples/README.md`](examples/README.md)。
 
 ## 作者
 

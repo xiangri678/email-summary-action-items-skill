@@ -9,6 +9,8 @@ An Agent Skill for producing evidence-backed digests across authorized mailboxes
 - `SKILL.md`: read-only digest workflow and mailbox boundaries
 - `references/message-contract.md`: normalized message fields
 - `references/digest-template.md`: digest structure
+- `scripts/validate_messages.py`: validate normalized message JSON
+- `examples/`: fictional input, invocation, and expected output
 - `agents/openai.yaml`: UI metadata
 
 Digest generation does not mark messages read, archive, label, delete, reply, forward, or send mail.
@@ -16,6 +18,8 @@ Digest generation does not mark messages read, archive, label, delete, reply, fo
 ## Use
 
 Install this repository with an Agent Skills-compatible client, or copy the repository into your agent's skills directory. An authorized email connector or CLI is required.
+
+Run the offline example with `python3 scripts/validate_messages.py examples/messages.example.json`, then follow [`examples/README.md`](examples/README.md).
 
 ## Authorship
 
