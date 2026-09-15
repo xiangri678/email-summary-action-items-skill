@@ -1,4 +1,4 @@
 interface:
-  display_name: "Email Summary & Action Items"
-  short_description: "Summarize email threads and extract action items"
-  default_prompt: "Use $email-summary-action-items to fetch or read my authorized mailboxes, group complete threads, generate a source-linked summary, and validate it without changing mailbox state."
+  display_name: "邮件总结与待办 / Email Summary"
+  short_description: "只读整理邮件线程，生成摘要和待办事项"
+  default_prompt: "使用 $email-summary-action-items 只读获取或读取我授权的邮箱，按完整线程归并邮件，生成带来源的摘要和待办，并在不改变邮箱状态的前提下完成校验。"
