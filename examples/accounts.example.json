@@ -1,0 +1,34 @@
+{
+  "accounts": [
+    {
+      "name": "Gmail",
+      "enabled": false,
+      "host": "imap.gmail.com",
+      "port": 993,
+      "ssl": true,
+      "username_env": "GMAIL_IMAP_USERNAME",
+      "password_env": "GMAIL_IMAP_PASSWORD",
+      "folders": ["INBOX", "[Gmail]/Sent Mail"]
+    },
+    {
+      "name": "Outlook",
+      "enabled": false,
+      "host": "outlook.office365.com",
+      "port": 993,
+      "ssl": true,
+      "username_env": "OUTLOOK_IMAP_USERNAME",
+      "password_env": "OUTLOOK_IMAP_PASSWORD",
+      "folders": ["INBOX", "Sent"]
+    },
+    {
+      "name": "QQ Mail",
+      "enabled": false,
+      "host": "imap.qq.com",
+      "port": 993,
+      "ssl": true,
+      "username_env": "QQ_IMAP_USERNAME",
+      "password_env": "QQ_IMAP_PASSWORD",
+      "folders": ["INBOX", "Sent Messages"]
+    }
+  ]
+}

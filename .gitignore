@@ -2,3 +2,7 @@ __pycache__/
 *.py[cod]
 .DS_Store
 .env
+accounts.json
+emails.json
+email-summary.md
+email-summary-validation.json

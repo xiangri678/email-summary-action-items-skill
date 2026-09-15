@@ -1,6 +1,6 @@
 # 邮件总结与待办
 
-中文 | [English](digest-template.md)
+中文 | [English](summary-template.md)
 
 - 覆盖时间：
 - 邮箱范围：

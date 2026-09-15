@@ -1,4 +1,4 @@
 interface:
   display_name: "Email Summary & Action Items"
   short_description: "Summarize email threads and extract action items"
-  default_prompt: "Use $email-summary-action-items to review my authorized mailboxes and produce a source-linked summary without changing mailbox state."
+  default_prompt: "Use $email-summary-action-items to fetch or read my authorized mailboxes, group complete threads, generate a source-linked summary, and validate it without changing mailbox state."

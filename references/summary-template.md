@@ -1,6 +1,6 @@
-# Email intelligence digest
+# Email summary and action items
 
-[中文模板](digest-template.zh-CN.md) | English
+[中文模板](summary-template.zh-CN.md) | English
 
 - Coverage:
 - Accounts:
